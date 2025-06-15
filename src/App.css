@@ -1,0 +1,60 @@
+.center-container {
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center; 
+  flex-direction: column;  /* Stack items vertically */
+  text-align: center;
+}
+.alert-text {
+  white-space: pre-line;
+}
+.overlay-alert{
+  height:100%;
+  width:100%;
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alert-box{
+  height: 35vh;
+  width: 30vw;
+  border-radius: 8px;
+  animation: pop 0.4s ease-out;
+  min-width: 200px;
+  min-height: 300px;
+}
+.form-control{
+  overflow: hidden;
+}
+.fullscreen-div {
+  position: fixed; /* Or absolute, depending on the desired behavior */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Viewport width */
+  height: 100vh; /* Viewport height */
+  z-index: 9999; /* To ensure it's on top of other elements (optional) */
+}
+.pop-container {
+  overflow-x: scroll;
+  height: 50vh;
+  padding-bottom: 2%;
+  display: flex;
+  animation: pop 0.4s ease-out;
+}
+@keyframes pop {
+  0% {
+    scale : 0.3;
+    opacity: 0;
+  }
+  60% {
+    scale : 1.1;
+    opacity: 1;
+  }
+  100% {
+    scale : 1;
+  }
+}
