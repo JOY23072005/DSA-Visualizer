@@ -56,9 +56,9 @@ DSA-Visualizer/
 
 ## 📷 Screenshots
 
-<img width="1680" alt="Image" src="https://github.com/JOY23072005/DSA-Visualizer/edit/main/public/1.png" />
-<img width="1678" alt="Image" src="https://github.com/JOY23072005/DSA-Visualizer/edit/main/public/2.png" />
-<img width="1680" alt="Image" src="https://github.com/JOY23072005/DSA-Visualizer/edit/main/public/3.png" />
+<img width="1680" alt="Image" src="https://github.com/JOY23072005/DSA-Visualizer/blob/main/public/1.png" />
+<img width="1678" alt="Image" src="https://github.com/JOY23072005/DSA-Visualizer/blob/main/public/2.png" />
+<img width="1680" alt="Image" src="https://github.com/JOY23072005/DSA-Visualizer/blob/main/public/3.png" />
 
 ---
 
